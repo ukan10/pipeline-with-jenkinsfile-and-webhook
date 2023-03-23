@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'Unal Kandan herkese merhaba'
+                echo 'Bu basit bir Pipeline-webhook projesidir'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
