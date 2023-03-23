@@ -5,8 +5,8 @@ pipeline {
             steps {
                 echo 'Unal Bahar herkese merhabalar'
                 echo 'Bu basit bir Pipeline-webhook projesidir..'
-                sh 'python --version'
-                sh 'python pipeline.py'
+                sh 'python3 --version'
+                sh 'python3 pipeline.py'
             }
         }
     }
